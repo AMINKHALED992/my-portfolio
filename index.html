@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10151d">
+  <meta name="description" content="معرض أعمال ومشاريع شخصية — Portfolio">
+  <title>معرض أعمالي | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#10151d;--panel:#171e28;--panel2:#1d2632;--text:#f1f5f9;--muted:#a2adba;--line:#293341;--accent:#9be3c1;--accent2:#76c8a2;--warm:#f5c98b;--max:1120px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 12% 5%,#19352f 0,transparent 28%),radial-gradient(ellipse at 91% 16%,#2b263a 0,transparent 26%),var(--bg);color:var(--text);font-family:'Cairo',sans-serif;line-height:1.8}a{color:inherit;text-decoration:none}button{font:inherit}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}.topbar{height:78px;border-bottom:1px solid #ffffff12;display:flex;align-items:center}.nav{display:flex;align-items:center;justify-content:space-between;gap:22px}.brand{font-family:Manrope,'Cairo',sans-serif;font-size:18px;font-weight:800;direction:ltr;letter-spacing:-.5px}.brand b{color:var(--accent)}.navlinks{display:flex;align-items:center;gap:25px;color:var(--muted);font-size:14px}.navlinks a:hover{color:var(--accent)}.nav-cta,.button{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--accent);color:#10231b;font-weight:800;padding:10px 18px;border-radius:12px;transition:.2s}.nav-cta:hover,.button:hover{background:#b8f0d3;transform:translateY(-2px)}.hero{padding:100px 0 75px;display:grid;grid-template-columns:1.25fr .75fr;align-items:center;gap:55px}.eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--accent);background:#9be3c114;border:1px solid #9be3c130;border-radius:999px;padding:5px 13px;font-size:13px;font-weight:700}.dot{width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 14px var(--accent)}h1{font-size:clamp(38px,6vw,70px);line-height:1.2;letter-spacing:-1.5px;margin:23px 0 16px;font-weight:800}h1 span{color:var(--accent)}.intro{font-size:18px;line-height:2;color:#bdc7d2;max-width:610px;margin:0 0 28px}.hero-actions{display:flex;align-items:center;gap:14px;flex-wrap:wrap}.button.secondary{background:transparent;border:1px solid var(--line);color:var(--text)}.button.secondary:hover{border-color:var(--accent);color:var(--accent);background:#9be3c10c}.hero-note{color:var(--muted);font-size:13px;margin-top:21px}.profile-card{position:relative;background:linear-gradient(145deg,#202b36,#151c25);border:1px solid #ffffff13;border-radius:28px;padding:27px;box-shadow:0 25px 80px #0004;overflow:hidden}.profile-card:before{content:'';position:absolute;inset:-80px -70px auto auto;width:230px;height:230px;border-radius:50%;background:#9be3c115;filter:blur(6px)}.avatar{position:relative;width:78px;height:78px;border-radius:24px;overflow:hidden;background:#1d2632;box-shadow:0 8px 24px #0004}.avatar img{width:100%;height:100%;object-fit:cover;object-position:center 48%;display:block}.profile-card h2{font-size:22px;margin:17px 0 0}.profile-card p{color:var(--muted);margin:3px 0 20px}.chips{display:flex;gap:8px;flex-wrap:wrap}.chip{border:1px solid #ffffff16;background:#ffffff08;border-radius:999px;padding:4px 11px;font-size:12px;color:#d2d9e1}.card-foot{border-top:1px solid #ffffff12;margin-top:23px;padding-top:17px;color:var(--muted);font-size:13px;display:flex;justify-content:space-between}.section{padding:75px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:22px;margin-bottom:27px}.section-kicker{color:var(--accent);font-size:13px;font-weight:800;letter-spacing:.4px}.section h2{font-size:34px;line-height:1.35;margin:5px 0 0}.section-desc{color:var(--muted);max-width:510px;margin:8px 0 0}.count{color:var(--muted);font:600 13px Manrope,sans-serif;direction:ltr}.project-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.project{background:linear-gradient(160deg,#1a222d,#151b24);border:1px solid #ffffff12;border-radius:20px;overflow:hidden;transition:.22s}.project:hover{transform:translateY(-4px);border-color:#9be3c15c;box-shadow:0 16px 45px #0003}.project-art{height:230px;background:linear-gradient(135deg,#243e38,#1b2530 58%,#29243b);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}.project-art:before,.project-art:after{content:'';position:absolute;width:220px;height:220px;border:1px solid #ffffff12;border-radius:50%}.project-art:after{width:290px;height:290px}.dice-scene{display:flex;align-items:center;gap:20px;position:relative;z-index:1;transform:rotate(-7deg)}.die{width:91px;height:91px;border-radius:23px;background:#f5f3ff;color:#584b8f;display:grid;place-items:center;font-size:62px;line-height:1;box-shadow:0 16px 35px #0004;font-family:Arial,sans-serif}.sum-badge{position:absolute;bottom:17px;left:17px;border-radius:999px;padding:5px 12px;background:#0d1715bd;border:1px solid #ffffff20;color:#d7f5e5;font:700 12px Manrope,sans-serif;direction:ltr}.project-content{padding:22px}.project-meta{display:flex;justify-content:space-between;align-items:center;gap:10px;color:var(--muted);font-size:12px}.project-meta span:first-child{color:var(--accent)}.project h3{margin:11px 0 6px;font-size:21px}.project p{color:#aeb9c5;font-size:14px;margin:0 0 17px}.project-bottom{border-top:1px solid #ffffff12;padding-top:15px;display:flex;align-items:center;justify-content:space-between;gap:12px}.tech{display:flex;gap:7px;flex-wrap:wrap}.tech span{color:#dce5eb;background:#ffffff0b;border-radius:7px;padding:3px 8px;font:600 11px Manrope,sans-serif;direction:ltr}.text-link{font-size:13px;color:var(--accent);font-weight:700}.about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:45px;align-items:start}.about-box{background:var(--panel);border:1px solid #ffffff12;border-radius:20px;padding:25px}.about-box h3{margin:0 0 8px;font-size:20px}.about-box p{color:#b4bfca;margin:0}.principles{display:grid;gap:13px}.principle{display:flex;gap:13px;align-items:flex-start;padding:17px;background:#ffffff06;border:1px solid #ffffff0c;border-radius:15px}.principle-icon{flex:none;width:36px;height:36px;border-radius:11px;background:#9be3c11a;color:var(--accent);display:grid;place-items:center;font-size:17px}.principle strong{display:block;font-size:15px}.principle small{color:var(--muted);font-size:13px}.contact{padding:38px;background:linear-gradient(125deg,#1d3a32,#20283a);border:1px solid #9be3c128;border-radius:24px;display:flex;justify-content:space-between;align-items:center;gap:25px}.contact h2{margin:0;font-size:29px}.contact p{color:#c2ccc9;margin:5px 0 0}.contact-actions{display:flex;gap:10px;flex-wrap:wrap}.footer{border-top:1px solid #ffffff12;padding:25px 0;color:var(--muted);font-size:12px}.footer-row{display:flex;justify-content:space-between;gap:20px}.footer a{color:var(--accent)}.edit-tip{font-size:12px;color:#8996a3;margin-top:25px}.ltr{direction:ltr;unicode-bidi:embed}
+    @media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:70px;gap:34px}.profile-card{max-width:520px}.about-grid{grid-template-columns:1fr}.contact{align-items:flex-start;flex-direction:column}}
+    @media(max-width:600px){.wrap{width:min(100% - 28px,var(--max))}.topbar{height:68px}.navlinks{gap:13px;font-size:12px}.nav-cta{display:none}.brand{font-size:16px}.hero{padding:57px 0 45px}.intro{font-size:16px}.section{padding:54px 0}.section h2{font-size:28px}.section-head{align-items:flex-start;flex-direction:column}.project-grid{grid-template-columns:1fr}.project-art{height:205px}.contact{padding:26px}.contact h2{font-size:25px}.footer-row{flex-direction:column;gap:4px}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav wrap" aria-label="التنقل الرئيسي">
+      <a class="brand" href="#home">MY<span>PORTFOLIO</span><b>.</b></a>
+      <div class="navlinks"><a href="#projects">أعمالي</a><a href="#about">نبذة عني</a><a href="#contact">تواصل</a></div>
+      <a class="nav-cta" href="#projects">استكشف أعمالي <span aria-hidden="true">↙</span></a>
+    </nav>
+  </header>
+  <main id="home" class="wrap">
+    <section class="hero">
+      <div>
+        <div class="eyebrow"><span class="dot"></span> معرض أعمال شخصي</div>
+        <h1>أهلًا، أنا <span>Amin khaled</span><br>وهنا أشارك ما أصنعه.</h1>
+        <p class="intro">مساحة بسيطة لعرض مشاريعي الشخصية وما أتعلمه. أؤمن أن كل مشروع صغير هو فرصة للتجربة، والتعلّم، وصناعة شيء أفضل.</p>
+        <div class="hero-actions"><a class="button" href="#projects">شاهد أعمالي <span aria-hidden="true">↓</span></a><a class="button secondary" href="#contact">تواصل معي</a></div>
+        <p class="hero-note">مشاريع شخصية · تعلّم مستمر · بناء خطوة بخطوة</p>
+      </div>
+      <aside class="profile-card">
+        <div class="avatar"><img src="assets/profile.jpg" alt="صورة شخصية"></div>
+        <h2>Amin Khaled</h2>
+        <p>مهتم بالتقنية وبناء المشاريع</p>
+        <div class="chips"><span class="chip">Flutter</span><span class="chip">Dart</span><span class="chip">تعلّم البرمجة</span></div>
+        <div class="card-foot"><span>متاح للتواصل</span><span class="ltr">Cairo, Egypt</span></div>
+      </aside>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-head"><div><div class="section-kicker">نماذج من شغلي</div><h2>أعمالي ومشاريعي</h2><p class="section-desc">كل مشروع هنا يوضح فكرة جرّبت تنفيذها، والأدوات التي استخدمتها، وما تعلمته منها.</p></div><div class="count" id="project-count">01 PROJECT</div></div>
+      <div class="project-grid" id="project-grid">
+        <article class="project">
+          <div class="project-art" aria-label="رسم توضيحي لنردين"><div class="dice-scene"><div class="die">⚀</div><div class="die">⚄</div></div><div class="sum-badge">ROLL · RESULT · RESET</div></div>
+          <div class="project-content">
+            <div class="project-meta"><span>مشروع شخصي تدريبي</span><span>تطبيق موبايل</span></div>
+            <h3>Dice Game — لعبة النرد</h3>
+            <p>تطبيق Flutter يحاكي رمي نردين، يحسب المجموع، ويعرض حالة فوز أو خسارة. يتضمن أزرارًا لإعادة الرمي والبدء من جديد.</p>
+            <div class="project-bottom"><div class="tech"><span>Flutter</span><span>Dart</span></div><span class="text-link">مشروع قيد التعلّم</span></div>
+          </div>
+        </article>
+      </div>
+      <p class="edit-tip">لإضافة مشروع جديد: افتح ملف index.html وابحث عن بطاقة المشروع، ثم انسخها وعدّل العنوان والوصف والمهارات والصورة.</p>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-head"><div><div class="section-kicker">نبذة مختصرة</div><h2>عنّي</h2></div></div>
+      <div class="about-grid">
+        <div class="about-box"><h3>ببني خبرتي مشروعًا بعد مشروع</h3><p>أنا في بداية رحلتي في عالم التقنية، وأستخدم المشاريع العملية لتطوير مهاراتي. أحرص على فهم الفكرة، تنفيذها، ثم تحسينها مع كل تجربة جديدة.</p></div>
+        <div class="principles">
+          <div class="principle"><div class="principle-icon">✦</div><div><strong>التعلّم بالممارسة</strong><small>أحوّل المفاهيم إلى مشاريع وتجارب ملموسة.</small></div></div>
+          <div class="principle"><div class="principle-icon">⌘</div><div><strong>اهتمام بالتفاصيل</strong><small>أراجع عملي وأحاول أن أجعله واضحًا وسهل الاستخدام.</small></div></div>
+          <div class="principle"><div class="principle-icon">↗</div><div><strong>تطوّر مستمر</strong><small>أضيف مهارات وأعمالًا جديدة إلى هذا المعرض مع الوقت.</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="contact"><div><h2>لديك فكرة أو فرصة؟</h2><p>يسعدني أن أسمع منك. أضف وسيلة التواصل المناسبة لك هنا.</p></div><div class="contact-actions"><a class="button" href="mailto:aminkhaled524@gmail.com">راسلني عبر البريد</a><a class="button secondary" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></div></div>
+    </section>
+  </main>
+  <footer class="footer"><div class="footer-row wrap"><span>© <span id="year"></span> Amin Khaled — جميع الحقوق محفوظة</span><span>صُنع بعناية، ويتطور مع كل مشروع.</span></div></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+
